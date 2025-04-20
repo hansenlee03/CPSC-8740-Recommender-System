@@ -1,0 +1,42 @@
+# CPSC 8740 Movie Recommendation System
+
+A client‑side movie recommender that uses keyword matching and temporal diversification to suggest Netflix titles based on free‑text queries. Built as part of the CPSC 8740 AI‑Receptive Software Engineering course at Clemson University.
+
+---
+
+## Live Demo
+
+[View the live application on GitHub Pages](https://hansenlee03.github.io/CPSC-8740-Recommender-System/)
+
+---
+
+## Repository
+
+**Source Code & README:**  
+https://github.com/hansenlee03/CPSC-8740-Recommender-System :contentReference[oaicite:0]{index=0}
+
+---
+
+## File Structure
+
+- **`index.html`** – HTML markup defining the search input, “Get Recommendations” button, and results container :contentReference[oaicite:1]{index=1}  
+- **`style.css`** – CSS for layout, typography, responsive behavior, and table styling :contentReference[oaicite:2]{index=2}  
+- **`script.js`** – JavaScript logic for CSV parsing (PapaParse), keyword‑based filtering, release‑year sorting, and dynamic table rendering :contentReference[oaicite:3]{index=3}  
+- **`netflix_titles.csv`** – Static dataset of Netflix titles (genres, descriptions, metadata) :contentReference[oaicite:4]{index=4}  
+- **`netflix_system.ipynb`** – Jupyter Notebook demonstrating the original Python TF‑IDF + cosine‑similarity implementation :contentReference[oaicite:5]{index=5}  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge).
+- No server or build tools required.
+
+### Installation
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/hansenlee03/CPSC-8740-Recommender-System.git
+   cd CPSC-8740-Recommender-System
